@@ -23,14 +23,10 @@
   <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
   <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
-  <!-- Vendor2 CSS Files -->
-    <link href="assets/vendor2/aos/aos.css" rel="stylesheet">
-    <link href="assets/vendor2/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <link href="assets/vendor2/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-    <link href="assets/vendor2/boxicons/css/boxicons.min.css" rel="stylesheet">
-    <link href="assets/vendor2/glightbox/css/glightbox.min.css" rel="stylesheet">
-    <link href="assets/vendor2/remixicon/remixicon.css" rel="stylesheet">
-    <link href="assets/vendor2/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+
+
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
@@ -45,17 +41,17 @@
       <div class="row justify-content-center align-items-center">
         <div class="col-xl-11 d-flex align-items-center justify-content-between">
           <h1 class="logo"><a href="index.html">TechAtom</a></h1>
-      
+
           <nav id="navbar" class="navbar">
             <ul>
               <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
-              
+
               <li><a class="nav-link scrollto" href="#services">Services</a></li>
               <li><a class="nav-link scrollto " href="#portfolio">Portfolio</a></li>
               <li><a class="nav-link scrollto" href="blog.html">Blog</a></li>
               <li><a class="nav-link scrollto" href="#tabs">About</a></li>
               <li><a class="nav-link scrollto" href="#team">Team</a></li>
-             
+
               <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
             </ul>
             <i class="bi bi-list mobile-nav-toggle"></i>
@@ -411,11 +407,11 @@
       <div class="container text-center" data-aos="zoom-in">
         <h3>Call To Action</h3>
         <p>Act before it’s too late!,Contact with us,we will give you clear information about things.</p>
-        <a class="cta-btn" href="#">Call To Action</a>
+        <a class="cta-btn" href="#contact">Call To Action</a>
       </div>
     </section><!-- End Call To Action Section -->
 
-   
+
 
     <!-- ======= Facts Section ======= -->
     <section id="facts">
@@ -450,9 +446,7 @@
 
         </div>
 
-        <!-- <div class="facts-img">
-          <img src="assets/img/facts-img.png" alt="" class="img-fluid">
-        </div> -->
+      
 
       </div>
     </section><!-- End Facts Section -->
@@ -645,11 +639,12 @@
 
 <!-- ======= Testimonials Section ======= -->
 <section id="testimonials" class="section-bg">
+  <header class="section-header">
+    <h3>Testimonials</h3>
+  </header>
+
   <div class="container" data-aos="fade-up">
 
-    <header class="section-header">
-      <h3>Testimonials</h3>
-    </header>
 
     <div class="testimonials-slider swiper-container" data-aos="fade-up" data-aos-delay="100">
       <div class="swiper-wrapper">
@@ -717,7 +712,7 @@
               <img src="assets/img/quote-sign-right.png" class="quote-sign-right" alt="">
             </p>
           </div>
-        </div><!-- End testimonial item --> 
+        </div><!-- End testimonial item -->
 
       </div>
       <div class="swiper-pagination"></div>
@@ -817,9 +812,9 @@
   <div class="container">
     <div class="section-header">
       <h3>Frequently Asked Questions</h3>
-     
+
     </div>
-  
+
 
     <div class="faq-list">
       <ul>
@@ -874,6 +869,51 @@
   </div>
 </section><!-- End F.A.Q Section -->
 
+ <!-- ======= Recent Blog Posts Section ======= -->
+ <section id="recent-blog-posts" class="recent-blog-posts">
+
+  <div class="container" data-aos="fade-up">
+    <div class="section-header">
+      <h3>Recent posts form our Blog</h3>
+
+    </div>
+
+
+    <div class="row">
+
+      <div class="col-lg-4">
+        <div class="post-box">
+          <div class="post-img"><img src="assets/img/new1.jpg" class="img-fluid" alt=""></div>
+          <span class="post-date">Tue, September 15</span>
+          <p class="post-title">Et repellendus molestiae qui est sed omnis voluptates magnam</p>
+          <a href="blogDetail.html" class="readmore stretched-link mt-auto"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
+        </div>
+      </div>
+
+      <div class="col-lg-4">
+        <div class="post-box">
+          <div class="post-img"><img src="assets/img/new3.jpg" class="img-fluid" alt=""></div>
+          <span class="post-date">Fri, August 28</span>
+          <h3 class="post-title">Et repellendus molestiae qui est sed omnis voluptates magnam</h3>
+          <a href="blogDetail.html" class="readmore stretched-link mt-auto"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
+        </div>
+      </div>
+
+      <div class="col-lg-4">
+        <div class="post-box">
+          <div class="post-img"><img src="assets/img/new4.jpg" class="img-fluid" alt=""></div>
+          <span class="post-date">Mon, July 11</span>
+          <h3 class="post-title">Quia assumenda est et veritatis aut quae</h3>
+          <a href="blogDetail.html" class="readmore stretched-link mt-auto"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
+</section><!-- End Recent Blog Posts Section -->
+
 <!-- ======= Contact Section ======= -->
 <section id="contact" class="contact">
 <div class="container">
@@ -921,7 +961,16 @@
     <form action="" method="post" role="form" class="email-form">
       <div class="row">
         <div class="col-md-6 form-group">
-          <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
+          <input type="text" name="fname" class="form-control" id="fname" placeholder="First Name" required>
+        </div>
+        <div class="col-md-6 form-group mt-3 mt-md-0">
+          <input type="text" class="form-control" name="lname" id="lnamel" placeholder="Last Name" required>
+        </div>
+      </div>
+      <br>
+      <div class="row">
+        <div class="col-md-6 form-group">
+          <input type="number" name="contact-number" class="form-control" id="number" placeholder="Contact Number" required>
         </div>
         <div class="col-md-6 form-group mt-3 mt-md-0">
           <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
@@ -934,9 +983,6 @@
         <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
       </div>
       <div class="my-3">
-        <div class="loading">Loading</div>
-        <div class="error-message"></div>
-        <div class="sent-message">Your message has been sent. Thank you!</div>
       </div>
       <div class="text-center"><button type="submit">Send Message</button></div>
     </form>
@@ -1012,16 +1058,16 @@
 
     <div class="container">
       <div class="copyright">
-        &copy; Copyright <strong><span>TechAtom</span></strong>. All Rights Reserved
+        &copy; Copyright <strong><span><a href="index.html">TechAtom</a></span></strong>. All Rights Reserved
       </div>
       <div class="credits">
-  
+
       </div>
     </div>
   </footer><!-- End Footer -->
 
   <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
-  
+
 
   <!-- Vendor JS Files -->
   <script src="assets/vendor/aos/aos.js"></script>
