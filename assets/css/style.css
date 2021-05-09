@@ -137,15 +137,17 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 700;
   letter-spacing: 3px;
   padding-left: 10px;
-  border-left: 4px solid #18d26e;
-}
 
+}
+#header .atom-color{
+  color: #18d26e;
+}
 #header .logo a {
   color: #fff;
 }
 
 #header .logo img {
-  max-height: 40px;
+  max-height: 100px;
 }
 
 @media (max-width: 992px) {
@@ -1926,6 +1928,9 @@ section {
   padding-top: 10px;
   text-align: center;
   font-size: 13px;
+  color: #fff;
+}
+#color-foot{
   color: #fff;
 }
 @media (max-width: 991px) {
